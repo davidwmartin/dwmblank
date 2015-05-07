@@ -11,7 +11,7 @@
 <!--[if lt IE 9]><div class="alert"><?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'dwmblank'); ?></div><![endif]-->
 <div class="wrapper">
 	<header class="main-head">
-		<div class="gw">
+
 			<div class="logo">
 				<h2><a href="<?php bloginfo('url');?>">Home</a></h2>
 			</div>
@@ -21,5 +21,5 @@
 			<div class="search">
 				<?php get_search_form(); ?>
 			</div>
-		</div>
+
 	</header>
