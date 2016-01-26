@@ -1,5 +1,7 @@
-<?php while ( have_posts() ) : the_post(); ?>
+<div class="post--index">
+	<?php while ( have_posts() ) : the_post(); ?>
 
-	<?php get_template_part( 'templates/content' ); ?>
+		<?php get_template_part( 'templates/content-preview' ); ?>
 
-<?php endwhile; ?>
+	<?php endwhile; ?>
+</div>
