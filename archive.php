@@ -1,4 +1,4 @@
-<div class="post--index">
+<div class="post-index">
 	<?php if ( have_posts() ) : ?>
 	<header>
 		<h1><?php

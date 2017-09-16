@@ -1,4 +1,4 @@
-<div class="post--index">
+<div class="post-index">
 	<header class="search-header">
 		<h1 class="post-title"><?php printf( __( 'Search Results for: %s', 'dwmblank' ), get_search_query() ); ?></h1>
 	</header>

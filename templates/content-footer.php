@@ -1,8 +1,8 @@
-<footer class="post-footer">
-	<span class="post-cat"><?php _e( 'Categories: ', 'dwmblank' ); ?>
+<footer class="post--footer">
+	<span class="postcat"><?php _e( 'Categories: ', 'dwmblank' ); ?>
 		<?php the_category( ', ' ); ?>
 	</span>
-	<span class="post-tags">
+	<span class="posttags">
 		<?php the_tags(); ?>
 	</span>
 	<?php if ( comments_open() ) { 
